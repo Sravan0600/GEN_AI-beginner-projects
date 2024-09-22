@@ -40,8 +40,10 @@ Similarity Search: The query embedding is compared against the stored embeddings
 Result Display: The application displays the retrieved results to the user, allowing them to access the relevant information quickly.
 
 Interlinking of Technologies
+
 Hugging Face provides the powerful embedding model that transforms both the PDF content and user queries into a format suitable for semantic similarity comparison.
 FAISS stores these embeddings, enabling fast and efficient retrieval based on similarity searches.
 LangChain orchestrates the interaction between these components, making it easier to integrate and manage the workflow of text processing, embedding generation, and information retrieval.
+
 Conclusion
 By leveraging these technologies, your project efficiently transforms raw PDF content into structured, searchable information. This combination allows for high accuracy in retrieval and quick responses to user queries, significantly enhancing the usability of the application.
